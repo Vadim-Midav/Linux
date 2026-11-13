@@ -201,7 +201,9 @@ sum=$((sum + i))
 done
 echo "$sum"
 
-
+# Create a function with two parameters: Start and End
+# Calculate the sum of numbers from 1 to 10 by calling the function and passing Start and End parameters
+# Example: f 1 5
 sum_numbers() {
     sum=0
 for ((i=$1; i<=$2; i++))
